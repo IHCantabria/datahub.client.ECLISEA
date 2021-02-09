@@ -1,5 +1,6 @@
 name: eclisea-jupyter
 channels:
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
@@ -11,14 +12,19 @@ dependencies:
   - backcall=0.2.0=pyh9f0ad1d_0
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.1=py_0
+  - beautifulsoup4=4.9.3=pyhb0f4dca_0
   - bleach=3.3.0=pyh44b312d_0
+  - brotlipy=0.7.0=py39h27cfd23_1003
+  - bs4=4.9.3=0
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.17.1=h36c2ea0_0
-  - ca-certificates=2020.12.5=ha878542_0
+  - ca-certificates=2020.10.14=0
   - cartopy=0.18.0=py39hda0f492_8
   - certifi=2020.12.5=py39hf3d152e_1
   - cffi=1.14.4=py39he32792d_1
   - cftime=1.4.1=py39hce5d2b2_0
+  - chardet=3.0.4=py39h06a4308_1003
+  - cryptography=3.3.1=py39h3c74f83_0
   - curl=7.71.1=he644dc0_8
   - cycler=0.10.0=py_2
   - dbus=1.13.6=hfdff14a_1
@@ -37,6 +43,7 @@ dependencies:
   - hdf4=4.2.13=h10796ff_1004
   - hdf5=1.10.6=nompi_h6a2412b_1114
   - icu=58.2=hf484d3e_1000
+  - idna=2.10=py_0
   - importlib-metadata=3.4.0=py39hf3d152e_0
   - importlib_metadata=3.4.0=hd8ed1ab_0
   - ipykernel=5.1.0=pyh24bf2e0_0
@@ -110,10 +117,12 @@ dependencies:
   - ptyprocess=0.7.0=pyhd3deb0d_0
   - pycparser=2.20=pyh9f0ad1d_2
   - pygments=2.7.4=pyhd8ed1ab_0
+  - pyopenssl=19.1.0=py_1
   - pyparsing=2.4.7=pyh9f0ad1d_0
   - pyqt=5.9.2=py39h2531618_6
   - pyrsistent=0.17.3=py39h3811e60_2
   - pyshp=2.1.3=pyh44b312d_0
+  - pysocks=1.7.1=py39h06a4308_0
   - python=3.9.1=hffdb5ce_5_cpython
   - python-dateutil=2.8.1=py_0
   - python_abi=3.9=1_cp39
@@ -121,12 +130,14 @@ dependencies:
   - pyzmq=22.0.1=py39hea8fd45_0
   - qt=5.9.7=h5867ecd_1
   - readline=8.0=he28a2e2_2
+  - requests=2.24.0=py_0
   - scipy=1.6.0=py39hee8e79c_0
   - send2trash=1.5.0=py_0
   - setuptools=49.6.0=py39hf3d152e_3
   - shapely=1.7.1=py39hcbe974e_1
   - sip=4.19.13=py39h2531618_0
   - six=1.15.0=pyh9f0ad1d_0
+  - soupsieve=2.0.1=py_0
   - sqlite=3.34.0=h74cdb3f_0
   - terminado=0.9.2=py39hf3d152e_0
   - testpath=0.4.4=py_0
@@ -134,6 +145,7 @@ dependencies:
   - tornado=6.1=py39h3811e60_1
   - traitlets=5.0.5=py_0
   - tzdata=2021a=he74cb21_0
+  - urllib3=1.25.11=py_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - webencodings=0.5.1=py_1
   - wheel=0.36.2=pyhd3deb0d_0
@@ -145,4 +157,6 @@ dependencies:
   - zipp=3.4.0=py_0
   - zlib=1.2.11=h516909a_1010
   - zstd=1.4.8=ha95c52a_1
+  - pip:
+    - datahubclient==0.7.3
 prefix: /home/felipe/miniconda3/envs/eclisea-jupyter
