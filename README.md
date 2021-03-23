@@ -21,8 +21,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -58,4 +56,13 @@ To start Jupyter, which will open a tab in the browser with its interface:
 ```sh
 jupyter notebook
 ```
+
+Documentation about Jupyter notebook is available in [jupyter-notebook.readthedocs.io](https://jupyter-notebook.readthedocs.io/en/stable/).
+
+
+# Contact
+
+- Project link: [GitHub datahub.client.ECLISEA](https://github.com/IHCantabria/datahub.client.ECLISEA)
+- Issues: [GitHub Issues](https://github.com/IHCantabria/datahub.client.ECLISEA/issues)
+- Email: felipe.maza@unican.es
 
