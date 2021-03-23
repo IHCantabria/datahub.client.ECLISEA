@@ -21,39 +21,41 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
 # About The Project
+![screenshot](resources/screenshot01.png)
 
 This project contains notebooks with different usage examples for ECLISEA data.
 
 The researcher will be able, with the help of the notebooks, to generate a code to work with the data in a simple way.
 
 
+# Getting started
+The examples of this project can be shown directly through the repository website.
+
+If you want to edit or work with them, then we explain how to use it on your local computer.
+## Prerequisites
+- Any OS with python
+- [Python](https://www.python.org/) 3.6 or newer
+- [Pip](https://pypi.org/project/pip/)
+- [virtualenv](https://pypi.org/project/virtualenv/) or [conda](https://docs.conda.io/en/latest/) are optional
 ## Installation
 
-To work with the different codes it is necessary to have [conda](https://www.anaconda.com/products/individual) (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)).
-
-To create an environment with the necessary dependencies we use the instruction:
 
 ```sh
-conda env create -f environment.yml
+pip install jupyter
+pip install cartopy
+pip install git+https://github.com/IHCantabria/datahub.client.git@v0.8.3
 ```
-
-Once we have the environment, we activate it
-
-```sh
-conda activate eclisea-jupyter
-```
-
-And we execute Jupyter, which will open a tab in the browser with its interface:
+# Usage
+To start Jupyter, which will open a tab in the browser with its interface:
 
 ```sh
 jupyter notebook
 ```
+
